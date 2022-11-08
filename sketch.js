@@ -60,6 +60,11 @@ function togglerotation() {
 */
 function draw() {
   background(25);
+
+  textSize(100)
+
+  text('scale', 100, 50)
+  fill("white")
  fill ("Goldenrod")
  noStroke()
 rect (700, -800,1100,2000)
@@ -71,7 +76,7 @@ fill(32,130,23)
 rect (700,-800,6,2000)
 
 fill(255,153,0)
-rect(750,-800,200,1100)
+rect(750,-800,200,1200)
 
 fill(200,220,180)
 rect(970,-800,20,1300)
